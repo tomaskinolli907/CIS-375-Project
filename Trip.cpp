@@ -85,7 +85,8 @@ void Trip::RoundTrip() {
 	}
 	cout << this->getSourceCity() << "->" << this->getDestinationCity() << " Price: $" << cost / 2 << endl;
 	cout << this->getDestinationCity() << "->" << this->getSourceCity() << " Price: $" << cost / 2 << endl;
-	bill << this->getSourceCity() << "->" << this->getDestinationCity() << this->getSourceCity() << " Price: $" << cost / 2;
+	cout << "TOTAL: $" << cost << endl;
+	bill << this->getSourceCity() << "->" << this->getDestinationCity() << this->getSourceCity() << " Price: $" << cost << endl;
 	
 	
 
